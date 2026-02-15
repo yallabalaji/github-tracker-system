@@ -1,0 +1,16 @@
+repo_owner: YOUR_GITHUB_USERNAME
+repo_name: YOUR_REPO_NAME
+project_name: YOUR_PROJECT_NAME
+
+# Section mapping: tracker.md section → GitHub Project column
+sections:
+  BACKLOG: Todo
+  IN_PROGRESS: In Progress
+  DONE: Done
+
+# Behavior for issues created directly on GitHub (without tracker-id)
+# Options: pull | ignore | close
+orphan_behavior: pull
+
+# Auto-generate IDs if not provided
+auto_id_prefix: feat-

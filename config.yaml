@@ -1,0 +1,16 @@
+repo_owner: yallabalaji
+repo_name: macos-android-manager
+project_name: macos-android-manager
+
+# Section mapping: tracker.md section → GitHub Project column
+sections:
+  BACKLOG: Todo
+  IN_PROGRESS: In Progress
+  DONE: Done
+
+# Behavior for issues created directly on GitHub (without tracker-id)
+# Options: pull | ignore | close
+orphan_behavior: pull
+
+# Auto-generate IDs if not provided
+auto_id_prefix: feat-
